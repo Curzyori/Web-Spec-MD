@@ -13,8 +13,42 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Morsify",
-  description: "Morse code transmitter for Android with Flashlight & Sound modes",
+  title: "SpecMD — One Tap. Device Specs to Markdown.",
+  description:
+    "Extract Android device specifications and export to clean Markdown format. Perfect for bug reports, tech reviews, forum posts, and seller listings.",
+  icons: {
+    icon: "/favicon.ico.png",
+    shortcut: "/logo.png",
+  },
+  keywords: [
+    "specmd",
+    "device specifications",
+    "markdown",
+    "android specs",
+    "device info",
+    "bug report template",
+    "tech review",
+    "spec sheet",
+  ],
+  authors: [{ name: "Curzyori" }],
+  openGraph: {
+    title: "SpecMD — One Tap. Device Specs to Markdown.",
+    description:
+      "Extract Android device specifications and export to clean Markdown format.",
+    type: "website",
+    locale: "en_US",
+    siteName: "SpecMD",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SpecMD — One Tap. Device Specs to Markdown.",
+    description:
+      "Extract Android device specifications and export to clean Markdown format.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function LocaleLayout({

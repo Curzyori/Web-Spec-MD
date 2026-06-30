@@ -13,7 +13,6 @@ const brandStyles = {
     codeBorder: "border-blue-500/30",
     text: "text-blue-500",
     bg: "bg-blue-500/5",
-    button: "bg-blue-600 hover:bg-blue-700",
     badge: "bg-blue-500/10 text-blue-400 border-blue-500/20",
   },
   purple: {
@@ -21,24 +20,57 @@ const brandStyles = {
     codeBorder: "border-purple-500/30",
     text: "text-purple-500",
     bg: "bg-purple-500/5",
-    button: "bg-purple-600 hover:bg-purple-700",
     badge: "bg-purple-500/10 text-purple-400 border-purple-500/20",
   },
 };
 
-const sampleMarkdown = `## 📱 Device Specifications
+const sampleMarkdown = `# 📱 Device Specifications
 
-**Generated:** 2024-01-15 14:30:00
+Generated: 2026-07-01 08:00:00 UTC
 
-| Property        | Value              |
-|-----------------|--------------------|
-| Model           | Pixel 8 Pro        |
-| Processor       | Google Tensor G3   |
-| RAM             | 12 GB              |
-| Storage         | 256 GB             |
-| Android         | 14 (API 34)        |
-| Resolution      | 1344 x 2992 px     |
+## 📱 Device Identity
 
+| Property | Value |
+|----------|-------|
+| Model | Pixel 7 Pro |
+| Manufacturer | Google |
+| Brand | Google |
+| Device | Cheetah |
+| Product | Pixel 7 Pro |
+
+## 🔧 Software
+
+| Property | Value |
+|----------|-------|
+| Android Version | Android 14 (API 34) |
+| Security Patch | 2025-06-01 |
+| Build Number | AP2A.240605.024 |
+| Build Fingerprint | google/Cheetah/Cheetah:14/AP2A.240605.024/... |
+
+## ⚙️ Hardware
+
+| Property | Value |
+|----------|-------|
+| Processor | Google Tensor G2 (ARMv8) |
+| RAM | 12 GB |
+| Internal Storage | 256 GB |
+
+## 📊 Display
+
+| Property | Value |
+|----------|-------|
+| Resolution | 1440 x 3120 pixels |
+| Density | 560 dpi (XXHDPI) |
+| Refresh Rate | 120 Hz |
+
+## 🔋 Battery
+
+| Property | Value |
+|----------|-------|
+| Capacity | 5000 mAh |
+| Status | Discharging (87%) |
+
+---
 *Exported via SpecMD*`;
 
 export function OutputPreview({ title, subtitle, brandColor }: OutputPreviewProps) {
