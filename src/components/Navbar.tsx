@@ -88,6 +88,7 @@ export function Navbar({ locale, logo, githubRepo, stars, brandColor }: NavbarPr
               href={`https://github.com/${githubRepo}`}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="View on GitHub (opens in new tab)"
               className="text-foreground/60 hover:text-foreground"
             >
               <GitHubIcon className="h-5 w-5" />

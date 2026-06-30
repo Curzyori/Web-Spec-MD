@@ -16,8 +16,9 @@ export const metadata: Metadata = {
   title: "SpecMD — One Tap. Device Specs to Markdown.",
   description:
     "Extract Android device specifications and export to clean Markdown format. Perfect for bug reports, tech reviews, forum posts, and seller listings.",
+  metadataBase: new URL("https://spec-md.curzy.dev"),
   icons: {
-    icon: "/favicon.ico.png",
+    icon: "/favicon.ico",
     shortcut: "/logo.png",
   },
   keywords: [

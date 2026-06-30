@@ -32,6 +32,7 @@ export default async function HomePage({
   const navProps = {
     locale,
     logo: "/logo.png",
+    name: "SpecMD",
     githubRepo: "Curzyori/spec-md",
     stars,
     brandColor: "blue" as const,
